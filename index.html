@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Передоплата за сайт Megasufit | Олександр</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#F4F4F2">
+<meta property="og:title" content="Передоплата за сайт Megasufit">
+<meta property="og:description" content="Сума та реквізити для оплати">
+<link rel="icon" href="images/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F4F2;--card:#FFFFFF;--ink:#17171A;--mut:#6B6B70;--line:#E4E4E0;--line-2:#D6D6D2;
+  --acc:#2F8C92;--acc-soft:#E3F1F1;--ok:#1F8A4C;
+  --f:"Inter Tight",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--f);overflow-x:hidden;-webkit-tap-highlight-color:transparent}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:6px}
+.wrap{width:min(560px,100% - 32px);margin-inline:auto}
+
+/* header */
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:20px;font-size:13px;color:var(--mut)}
+.brand{display:inline-flex;align-items:center;gap:8px;color:var(--ink);font-weight:600;font-size:15px}
+.brand img{height:22px;width:auto}
+
+.intro{padding-block:20px 24px}
+.eyebrow{font-size:13px;color:var(--mut);font-weight:500;letter-spacing:.02em}
+h1{font-weight:600;font-size:clamp(2rem,8vw,2.6rem);line-height:1.05;letter-spacing:-.035em;margin-top:6px}
+
+/* product card (from portfolio) */
+.card{
+  --c-bg:#1A2628;--c-ink:#F4F1EC;--c-mut:rgba(244,241,236,.66);--c-line:rgba(244,241,236,.14);--c-acc:#5FB3B8;--c-glow:rgba(95,179,184,.2);
+  position:relative;overflow:hidden;isolation:isolate;
+  display:flex;flex-direction:column;color:var(--c-ink);background:var(--c-bg);border-radius:20px;padding:16px;
+  box-shadow:0 2px 4px rgba(23,23,26,.08),0 24px 48px -24px rgba(23,23,26,.35);
+}
+.card::before{content:"";position:absolute;z-index:-1;right:-10%;top:-40%;width:60%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,var(--c-glow),transparent 65%);opacity:.8;pointer-events:none}
+.shot{position:relative;display:block;aspect-ratio:16/10;overflow:hidden;border-radius:12px;border:1px solid var(--c-line);background:var(--c-bg)}
+.shot img{width:100%;height:100%;object-fit:cover;object-position:top}
+.card__body{display:flex;flex-direction:column;gap:16px;padding:20px 4px 4px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 12px;border-radius:99px;font-size:13px;font-weight:500;white-space:nowrap;background:rgba(255,138,61,.14);color:#FFB27A;border:1px solid rgba(255,138,61,.35)}
+.flame{display:inline-flex;color:#FF8A3D;transform-origin:50% 90%;animation:flicker 1.6s ease-in-out infinite}
+@keyframes flicker{0%,100%{transform:scale(1,1) rotate(0)}20%{transform:scale(.94,1.08) rotate(-3deg)}45%{transform:scale(1.04,.96) rotate(2deg)}70%{transform:scale(.96,1.06) rotate(-2deg)}}
+.card h2{font-weight:600;font-size:1.45rem;letter-spacing:-.025em;line-height:1.1;margin-top:6px}
+.feats{list-style:none;padding:0;display:grid;gap:9px;font-size:15px;line-height:1.45}
+.feats li{position:relative;padding-left:18px}
+.feats li::before{content:"";position:absolute;left:0;top:.72em;width:8px;height:1px;background:var(--c-acc)}
+.blocks{font-size:13px;line-height:1.55;color:var(--c-mut)}
+.blocks b,.exclusive b{color:var(--c-ink);font-weight:500}
+.exclusive{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.45;color:var(--c-mut)}
+.exclusive svg{flex:none;margin-top:2px;color:var(--c-acc)}
+.open{align-self:flex-start;display:inline-flex;gap:8px;align-items:center;height:42px;padding:0 18px;border:1px solid rgba(244,241,236,.4);border-radius:99px;text-decoration:none;font-size:14px;font-weight:500}
+
+/* sections */
+.sec{margin-top:28px}
+.sec__title{font-weight:600;font-size:1.25rem;letter-spacing:-.02em;line-height:1.2}
+.sec__sub{font-size:14px;color:var(--mut);margin-top:4px}
+.panel{margin-top:14px;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+
+/* amount */
+.amount{padding:20px}
+.amount__label{font-size:13px;color:var(--mut)}
+.amount__val{font-weight:600;font-size:3rem;line-height:1;letter-spacing:-.04em;font-variant-numeric:tabular-nums;margin-top:6px}
+.amount__for{margin-top:12px;font-size:15px}
+.fx{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.fx__item{display:inline-flex;align-items:center;height:32px;padding:0 12px;border-radius:99px;background:var(--bg);border:1px solid var(--line);font-size:15px;font-weight:500;font-variant-numeric:tabular-nums;color:#3A3A3F}
+.card__sub{font-size:14px;line-height:1.45;color:var(--c-mut);margin-top:6px}
+.amount__for b{font-weight:500}
+
+/* requisite rows */
+.row{display:flex;align-items:center;gap:10px;padding:14px 12px 14px 16px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row__txt{flex:1;min-width:0}
+.row__label{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--mut)}
+.bank{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:6px;font-size:11px;font-weight:600;color:#fff;flex:none}
+.bank--mono{background:#17171A}
+.bank--privat{background:#5BAA2E}
+.bank--ing{background:#FF6200}
+.row__val{font-weight:500;font-size:min(1.08rem,3.8vw);white-space:nowrap;letter-spacing:.01em;font-variant-numeric:tabular-nums;margin-top:2px;overflow-wrap:anywhere}
+.row__val--name{letter-spacing:-.01em;white-space:normal}
+
+.copy{
+  flex:none;display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  height:52px;padding:0 13px;border-radius:14px;border:0;cursor:pointer;
+  background:var(--ink);color:#fff;font-size:14px;font-weight:500;
+  transition:background .25s,transform .15s var(--ease);touch-action:manipulation;
+}
+.copy:active{transform:scale(.96)}
+.copy svg{flex:none}
+.copy.done{background:var(--ok)}
+.copy .i-ok{display:none}
+.copy.done .i-copy{display:none}
+.copy.done .i-ok{display:block}
+
+.hint{display:flex;gap:10px;align-items:flex-start;padding:14px 18px;background:var(--acc-soft);font-size:14px;line-height:1.5;color:#24484A;border-top:1px solid var(--line)}
+.hint svg{flex:none;margin-top:3px;color:var(--acc)}
+.hint b{font-weight:600;color:#17393B}
+
+/* after payment */
+.after{margin-top:28px;padding:22px 20px;background:#EDEDEA;border-radius:18px;text-align:center}
+.after p{color:var(--mut);font-size:15px;max-width:40ch;margin-inline:auto}
+.btn{margin-top:16px;display:inline-flex;gap:10px;align-items:center;justify-content:center;min-height:52px;padding:12px 26px;background:var(--ink);color:#fff;text-decoration:none;font-weight:500;font-size:15px;border-radius:99px}
+
+.foot{padding-block:28px 36px;font-size:13px;color:var(--mut);text-align:center}
+
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--ink);color:#fff;padding:12px 18px;border-radius:99px;font-size:14px;font-weight:500;transition:opacity .25s,transform .25s var(--ease);z-index:10;white-space:nowrap}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+@media(max-width:360px){
+  .copy{min-width:0;width:52px;padding:0}
+  .copy .t{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top wrap">
+  <span class="brand"><img src="images/icon.svg" alt="" width="30" height="23">Олександр</span>
+  <span>розробка сайтів</span>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <p class="eyebrow">РАХУНОК НА ОПЛАТУ</p>
+    <h1>Передоплата за сайт Megasufit</h1>
+  </section>
+
+  <article class="card">
+    <a class="shot" href="https://apstudio21.github.io/piatastina/" target="_blank" rel="noopener noreferrer" aria-label="Відкрити приклад сайту в новій вкладці">
+      <img src="images/piatastina-800.webp" alt="Основа сайту: перший екран" width="800" height="719">
+    </a>
+    <div class="card__body">
+      <div>
+        <div class="tags">
+          <span class="tag"><span class="flame"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 2c.6 3.2 5.4 5.2 5.4 10.2A5.4 5.4 0 0 1 12 17.6a5.4 5.4 0 0 1-5.4-5.4c0-2.2 1.1-3.8 2.2-4.9.2 1.6 1 2.6 2 2.7C10.4 6.6 10.6 4.2 12 2z" fill="currentColor"/><path d="M12 11c.3 1.6 2.6 2.6 2.6 5a2.6 2.6 0 0 1-5.2 0c0-1.2.6-1.9 1.1-2.4.1.8.5 1.3 1 1.4-.1-1.6.1-2.8.5-4z" fill="#FFE2A8"/></svg></span>Швидка реалізація: 4&nbsp;дні</span>
+        </div>
+        <h2>Сайт для Megasufit</h2>
+        <p class="card__sub">Готове рішення №2 з логотипом, кольорами, текстами, цінами й фото Megasufit.</p>
+      </div>
+      <ul class="feats">
+        <li>Калькулятор із розрахунком вартості</li>
+        <li>Приклади реалізованих проєктів з описом й ціною під ключ</li>
+        <li>Інтерактивний блок «день / вечір»: перемикач показує ту саму кімнату при денному та вечірньому освітленні.</li>
+        <li>Зручна панель керування, де Ви зможете легко, без програміста, змінювати ціни, фото та іншу інформацію.</li>
+      </ul>
+      <p class="blocks"><b>Блоки сайту:</b> перший екран із формою заміру, переваги, світло, полотно й профіль, проєкти, калькулятор, процес, відгуки, питання й відповіді, замір і контакти.</p>
+      <p class="exclusive"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3h1a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h1zm2 0h6V7a3 3 0 0 0-6 0v3z" fill="currentColor"/></svg><span><b>Один сайт – один клієнт.</b> Після продажу він закріплюється за Вами й більше нікому не продається.</span></p>
+      <a class="open" href="https://apstudio21.github.io/piatastina/" target="_blank" rel="noopener noreferrer">Відкрити приклад сайту <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+
+  <!-- amount -->
+  <section class="sec" aria-labelledby="t-sum">
+    <h2 class="sec__title" id="t-sum">Сума до оплати</h2>
+    <div class="panel">
+      <div class="amount">
+        <p class="amount__label">Передоплата 50%</p>
+        <p class="amount__val">250&nbsp;$</p>
+        <div class="fx">
+          <span class="fx__item">≈ 11&nbsp;225 грн</span>
+          <span class="fx__item">≈ 980 zł</span>
+        </div>
+        <p class="amount__for">За що: <b>розробка сайту для Megasufit</b></p>
+      </div>
+      <div class="hint">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/></svg>
+        <span><b>Загальна вартість 500&nbsp;$.</b> Решту 250&nbsp;$ оплачуєте, коли сайт готовий і Ви переглянули його на тестовій адресі, перед публікацією. Сума в гривнях і злотих за курсом НБУ та НБП на 13.10.2026.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- UA cards -->
+  <section class="sec" aria-labelledby="t-ua">
+    <h2 class="sec__title" id="t-ua">Українські картки</h2>
+    <p class="sec__sub">Оплата в гривнях</p>
+    <div class="panel">
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label"><span class="bank bank--mono" aria-hidden="true">m</span>Монобанк</p>
+          <p class="row__val">4441 1111 5946 5057</p>
+        </div>
+        <button class="copy" type="button" data-copy="4441111159465057" aria-label="Скопіювати номер картки Монобанк"></button>
+      </div>
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label"><span class="bank bank--privat" aria-hidden="true">П</span>ПриватБанк</p>
+          <p class="row__val">5457 0825 0476 9733</p>
+        </div>
+        <button class="copy" type="button" data-copy="5457082504769733" aria-label="Скопіювати номер картки ПриватБанк"></button>
+      </div>
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label">Отримувач</p>
+          <p class="row__val row__val--name">Олександр Порохня</p>
+        </div>
+        <button class="copy" type="button" data-copy="Олександр Порохня" aria-label="Скопіювати імʼя отримувача"></button>
+      </div>
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label">Сума в гривнях</p>
+          <p class="row__val">11&nbsp;225 грн</p>
+        </div>
+        <button class="copy" type="button" data-copy="11225" aria-label="Скопіювати суму в гривнях"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- EU account -->
+  <section class="sec" aria-labelledby="t-eu">
+    <h2 class="sec__title" id="t-eu">Європейський рахунок</h2>
+    <p class="sec__sub">Оплата в євро, переказ SEPA</p>
+    <div class="panel">
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label">Отримувач</p>
+          <p class="row__val row__val--name">Oleksandr Porokhnia</p>
+        </div>
+        <button class="copy" type="button" data-copy="Oleksandr Porokhnia" aria-label="Скопіювати імʼя отримувача"></button>
+      </div>
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label"><span class="bank bank--ing" aria-hidden="true">I</span>IBAN</p>
+          <p class="row__val">NL18 INGB 0116 5294 82</p>
+        </div>
+        <button class="copy" type="button" data-copy="NL18INGB0116529482" aria-label="Скопіювати IBAN"></button>
+      </div>
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label">BIC / SWIFT</p>
+          <p class="row__val">INGBNL2A</p>
+        </div>
+        <button class="copy" type="button" data-copy="INGBNL2A" aria-label="Скопіювати BIC"></button>
+      </div>
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label">Банк</p>
+          <p class="row__val row__val--name">ING Bank N.V., Нідерланди</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row__txt">
+          <p class="row__label">Сума в євро</p>
+          <p class="row__val">224 €</p>
+        </div>
+        <button class="copy" type="button" data-copy="224" aria-label="Скопіювати суму в євро"></button>
+      </div>
+      <div class="hint">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/></svg>
+        <span><b>Можна платити з польського рахунку в злотих.</b> У банківському додатку оберіть переказ SEPA (przelew SEPA) і вкажіть суму 224&nbsp;€ (це ≈&nbsp;980&nbsp;zł). Банк сам спише злоті й конвертує їх у євро за своїм курсом. Зазвичай гроші приходять наступного робочого дня.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="after">
+    <p>Після оплати, будь ласка, надішліть скріншот або квитанцію, і я одразу почну роботу.</p>
+    <a class="btn" href="https://t.me/SashaAP24" target="_blank" rel="noopener noreferrer">Надіслати в Telegram <span aria-hidden="true">↗</span></a>
+  </section>
+</main>
+
+<footer class="foot wrap">Олександр · розробка сайтів</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite">Скопійовано</div>
+
+<script>
+(function () {
+  'use strict';
+  var ICON_COPY = '<svg class="i-copy" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M9 9h10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1zm-4 6H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var ICON_OK = '<svg class="i-ok" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var toast = document.getElementById('toast');
+  var toastTimer;
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.top = '-1000px';
+    ta.style.fontSize = '16px';
+    document.body.appendChild(ta);
+    var range = document.createRange();
+    range.selectNodeContents(ta);
+    var sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+    ta.setSelectionRange(0, text.length);
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+    sel.removeAllRanges();
+    return ok;
+  }
+
+  function copy(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text).then(function () { return true; }, function () { return fallbackCopy(text); });
+    }
+    return Promise.resolve(fallbackCopy(text));
+  }
+
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toast.classList.remove('show'); }, 1600);
+  }
+
+  document.querySelectorAll('.copy').forEach(function (btn) {
+    btn.innerHTML = ICON_COPY + ICON_OK + '<span class="t">Копіювати</span>';
+    var label = btn.querySelector('.t');
+    var timer;
+    btn.addEventListener('click', function () {
+      copy(btn.getAttribute('data-copy')).then(function (ok) {
+        if (!ok) { showToast('Не вдалося, скопіюйте вручну'); return; }
+        btn.classList.add('done');
+        label.textContent = 'Готово';
+        showToast('Скопійовано');
+        clearTimeout(timer);
+        timer = setTimeout(function () { btn.classList.remove('done'); label.textContent = 'Копіювати'; }, 1800);
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>
