@@ -119,6 +119,13 @@ h1{font-weight:600;font-size:clamp(2rem,8vw,2.6rem);line-height:1.05;letter-spac
 .after p{color:var(--mut);font-size:15px;max-width:40ch;margin-inline:auto}
 .btn{margin-top:16px;display:inline-flex;gap:10px;align-items:center;justify-content:center;min-height:52px;padding:12px 26px;background:var(--ink);color:#fff;text-decoration:none;font-weight:500;font-size:15px;border-radius:99px}
 
+.term{display:flex;align-items:center;gap:16px;padding:18px 20px}
+.term__ico{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--acc-soft);color:var(--acc)}
+.term__val{font-weight:600;font-size:1.6rem;line-height:1.1;letter-spacing:-.03em}
+.term__desc{font-size:14px;color:var(--mut);margin-top:4px}
+.term__date{padding:12px 20px;border-top:1px solid var(--line);background:#FAFAF8;font-size:14px;color:var(--mut)}
+.term__date b{font-weight:600;color:var(--ink)}
+
 .foot{padding-block:28px 36px;font-size:13px;color:var(--mut);text-align:center}
 
 .toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--ink);color:#fff;padding:12px 18px;border-radius:99px;font-size:14px;font-weight:500;transition:opacity .25s,transform .25s var(--ease);z-index:10;white-space:nowrap}
@@ -187,6 +194,21 @@ h1{font-weight:600;font-size:clamp(2rem,8vw,2.6rem);line-height:1.05;letter-spac
         <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/></svg>
         <span><b>Решту 375&nbsp;$</b> оплачуєте, коли сайт готовий і Ви переглянули його на тестовій адресі, перед публікацією. Сума в гривнях за курсом НБУ станом на 12.11.2026.</span>
       </div>
+    </div>
+  </section>
+
+  <!-- term -->
+  <section class="sec" aria-labelledby="t-term">
+    <h2 class="sec__title" id="t-term">Термін виконання</h2>
+    <div class="panel">
+      <div class="term">
+        <span class="term__ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24"><rect x="3.5" y="5" width="17" height="15.5" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3.5 10h17M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <div>
+          <p class="term__val">10 днів</p>
+          <p class="term__desc">після отримання всіх матеріалів</p>
+        </div>
+      </div>
+      <p class="term__date">Якщо матеріали будуть у мене 12.11, сайт буде готовий <b>до 22.11.2026 включно</b>.</p>
     </div>
   </section>
 
